@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 77, 56);
+    
+    text-align: center;
+}
+h1{
+    background: rgb(179, 159, 159);
+    color: rgb(48, 43, 43);
+
+    margin: 50px;
+}
+.Drum{
+    background: rgb(179, 159, 159);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(16, 16, 16);
+    text-align:center;
+    padding-top: 70px;
+    height: 140px;
+    width: 140px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 20px;
+    transition: transform 50ms ease-in-out 25ms;
+}
+.drum>h1{
+    width: 50px;
+}
+button:hover{
+    transform: scale(1.2) ;
+}
+footer{
+    background-color: rgb(179, 159, 159);
+    margin-top: 50px;
+    font: 300;
+    font-size: 1.4rem;
+    color: rgb(78, 60, 60);
+
+}
+.w{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/crash.png");
+    background-size: cover;
+}
+.s{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/kick.png");
+    background-size: cover;
+
+}
+.a{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/snare.png");
+    background-size: cover;
+
+}
+.d{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/tom1.png");
+    background-size: cover;
+
+   
+}
+.j{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/tom2.png");
+    background-size: cover;
+
+}
+.k{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/tom3.png");
+    background-size: cover;
+
+}
+.l{
+    background-image: url("https://raw.githubusercontent.com/angelabauer/web-development-bootcamp/master/Drum%20Kit/images/tom4.png");
+    background-size: cover;
+
+}
